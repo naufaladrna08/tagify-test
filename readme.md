@@ -1,1 +1,1 @@
-<img src="https://github.com/naufaladrna08/tagify-test/blob/master/tagifyjs.png" style="width: 100%">
+<img src="https://github.com/naufaladrna08/tagify-test/blob/master/tagifyjs.png" width="100">
