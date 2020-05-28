@@ -1,1 +1,1 @@
-![](tagifyjs.png| width=100)
+![](https://github.com/naufaladrna08/tagify-test/blob/master/tagifyjs.png | width=100)
