@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tagify </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="text-center">
+    <h1 class="display-4"> Tagify JS </h1>
+  </div>
+  <input name="tags" value="Cat, Dog">
+
+  <script src="https://cdn.jsdelivr.net/npm/@yaireo/tagify@3.9.3/dist/tagify.min.js"></script>
+  <script type="text/javascript">
+    
+      var tags = document.querySelector('input[name=tags]')
+      var tagify = new Tagify(tags, {
+        enforcewhitelist: true,
+        whitelist: ["HTML", "CSS", "C++", "Javascript"],
+      })
+  </script>
+</body>
+</html>
